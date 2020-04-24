@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:scourgecarnelian/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:scourgecarnelian/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:scourgecarnelian/prow:hmacToken
+segmentWriteKey: vault:scourgecarnelian:segmentWriteKey
